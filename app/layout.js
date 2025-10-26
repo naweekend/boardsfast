@@ -13,6 +13,12 @@ const notoUrdu = Noto_Nastaliq_Urdu({
 export const metadata = {
   title: "BoardsFast",
   description: "Boards XII Class Syllabus Tracker",
+  manifest: "/manifest.json",
+  themeColor: "#EF476F",
+  icons: {
+    icon: "/icons/icon-192x192.png",
+    apple: "/icons/icon-512x512.png",
+  },
 };
 
 export default function RootLayout({ children }) {
