@@ -41,7 +41,7 @@ export default function InstallPWAButton() {
 
   return (
     <div className="fixed bg-base-200 p-5 z-9999 bottom-0 right-0 w-full">
-      <div className="flex justify-between items-center mx-auto">
+      <div className="flex justify-center gap-5 items-center mx-auto">
         <div className="tooltip" data-tip="BoardsFast Logo">
           <Image src={Icon} alt="logo" className="size-15" />
         </div>
