@@ -165,6 +165,7 @@ export default function Home() {
           />
         ))}
       </div>
+      <footer className="py-20"></footer>
     </main >
   );
 }
