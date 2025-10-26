@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import confetti from "canvas-confetti";
+import InstallPWAButton from "@/components/InstallPWAButton";
 
 export default function Home() {
   const syllabus = {
@@ -152,8 +153,8 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center min-h-screen py-20 max-w-6xl gap-8 mx-auto px-5">
+      <InstallPWAButton />
       <h1 className="text-4xl font-bold">XII - Syllabus</h1>
-
       <div className="flex justify-center gap-6 flex-wrap">
         {Object.entries(syllabus).map(([subject, chapters]) => (
           <Card
@@ -164,7 +165,7 @@ export default function Home() {
           />
         ))}
       </div>
-    </main>
+    </main >
   );
 }
 
